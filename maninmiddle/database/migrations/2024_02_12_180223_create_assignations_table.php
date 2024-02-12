@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('game_id')->constrained('games');
             $table->string('position');
             $table->string('status');
+            $table->string('tarif');
             $table->timestamps();
         });
     }
